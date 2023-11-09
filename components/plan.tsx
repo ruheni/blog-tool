@@ -20,9 +20,9 @@ interface Props {
 
 export default function Plan({ plan, isCurrentPlan, email }: Props) {
   return (
-    <div className="relative flex flex-col rounded-lg border border-stone-200 shadow-md transition-all hover:shadow-xl dark:border-stone-700 dark:hover:border-white">
+    <div className="relative flex flex-col rounded-lg border border-slate-200 shadow-md transition-all hover:shadow-xl dark:border-gray-700 dark:hover:border-white">
       {/* plan overview */}
-      <div className="flex justify-between border-b border-stone-200 p-8 dark:border-stone-700">
+      <div className="flex justify-between border-b border-slate-200 p-8 dark:border-gray-700">
         <div className="flex flex-col">
           <h4 className="text-2xl font-bold dark:text-white">{plan.name}</h4>
           <span className="text-md text-gray-400 dark:text-white">
